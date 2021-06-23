@@ -10,11 +10,16 @@ Interface 12: 20150508. http://dx.doi.org/10.1098/rsif.2015.0508
 
 In this paper, researcher use such model to describe avian head.
 
-![image-20210623163127390](img/paper_model.png)
+<p align="center">   
+    <img src="img/paper_model.png", style="zoom: 90%;"> 
+</p>
 
 For traditional 2DOF problems like following graphs, we can derive the dynamic equations like:
 
-<img src="img/abstract_model.png" style="zoom: 67%;" />
+<p align="center">   
+    <img src="img/abstract_model.png", style="zoom: 67%;"> 
+</p>
+
 $$
 m_s \ddot{x_s} + c(\dot{x_s}-\dot{x_u}) + k_s(x_s-x_u) = U_t
 $$
@@ -40,13 +45,19 @@ $$
 
 using DQN and PG to train, it turns out that PG get a better result, the q value sum is:
 
-![image-20210623165004590](img/pg_performance.png)
+<p align="center">   
+    <img src="img/pg_performance.png", style="zoom: 80%;"> 
+</p>
 
-<img src="img/disps_velos.png" alt="image-20210623165013876" style="zoom:67%;" />
+<p align="center">   
+    <img src="img/disps_velos.png", style="zoom: 70%;"> 
+</p>
 
 To visualize it using gym:
 
-<img src="img/birdsmodel-02.gif" alt="birdsmodel-02" style="zoom: 50%;" />
+<p align="center">   
+    <img src="img/birdsmodel-02.gif", style="zoom:67%;"> 
+</p>
 
 ### Requirement
 
