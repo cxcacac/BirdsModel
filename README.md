@@ -17,7 +17,7 @@ In this paper, researcher use such model to describe avian head.
 For traditional 2DOF problems like following graphs, we can derive the dynamic equations like:
 
 <p align="center">   
-    <img src="img/abstract_model.png", style="zoom: 50%;"> 
+    <img src="img/abstract_model.png", style="zoom: 40%;"> 
 </p>
 
 $$
@@ -50,7 +50,7 @@ using DQN and PG to train, it turns out that PG get a better result, the q value
 </p>
 
 <p align="center">   
-    <img src="img/disps_velos.png", style="zoom: 70%;"> 
+    <img src="img/disps_velos.png", style="zoom: 60%;"> 
 </p>
 
 To visualize it using gym:
