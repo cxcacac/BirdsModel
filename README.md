@@ -17,7 +17,7 @@ In this paper, researcher use such model to describe avian head.
 For traditional 2DOF problems like following graphs, we can derive the dynamic equations like:
 
 <p align="center">   
-    <img src="img/abstract_model.png", style="zoom: 67%;"> 
+    <img src="img/abstract_model.png", style="zoom: 50%;"> 
 </p>
 
 $$
